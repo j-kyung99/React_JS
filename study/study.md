@@ -21,3 +21,8 @@
 - React는 JS -> HTML 순서 --> 이것이 React 핵심 !
 
 - 두 가지 const를 render 하고자 하는 경우 div를 만든 후 React.createElement("div", null, [span,btn])과 같이 배열을 만들어 content 위치에 넣어줌
+
+- div에 const를 넣으려면 const를 함수로 만들어야함
+  - const Btn = () => (); (arrow function)
+  - 위 arrow function은 function Btn() {return ();} 과 같음
+- 컴포넌트의 첫 글자는 반드시 대문자 (소문자로 작성 시 우리가 작성한 요소가 아니라 기존 HTML 태그로 인식)
