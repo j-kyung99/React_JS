@@ -2,10 +2,10 @@
 
 - React.createElement("") : 반드시 생성하고자 하는 HTML 태그와 똑같아야함
 - React.createElement("",{ : ""}, "")
-  = 첫 번째에는 태그
+  = 첫 번째에는 HTML 태그
   - 두 번째에는 태그의 property (class name, id, style 등 가능)
     - property에 eventListener 넣는 것도 가능
-    - {onClick: () => }
+    - {onClick: () => }의 형식
   - 세 번째에는 태그의 content(내용)
 
 ## React JS & React-dom
