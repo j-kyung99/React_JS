@@ -47,4 +47,7 @@
   2. 함수 할당 : setState(state => state + 1) -> 함수의 첫번째 인자는 현재 state
 
 - JSX는 class / for과 같은 JavaScript에서 선점된 문법 용어 사용을 금함
+
   - class => className, for => htmlFor로 변경하여 사용
+
+- state 값으로 input의 enabled/disabled 여부 결정 가능
