@@ -38,4 +38,9 @@
   - **즉, 브라우저 작동원리와 연관이 있음** / 렌더트리 단계를 얼마나 최적화하는게 중요한가가 프엔의 핵심!
 
 - const [counter, setCounter] = React.useState(0);
+
   - modifier 함수를 가지고 state를 변경할 때 컴포넌트가 재생성 됨(새로운 값으로 리렌더링)
+
+- state를 세팅하는 두 가지 방법
+  1. 직접 할당 : setState(state + 1)
+  2. 함수 할당 : setState(state => state + 1) -> 함수의 첫번째 인자는 현재 state
