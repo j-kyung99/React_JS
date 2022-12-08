@@ -51,3 +51,12 @@
   - class => className, for => htmlFor로 변경하여 사용
 
 - state 값으로 input의 enabled/disabled 여부 결정 가능
+
+### 4.1
+
+- props에 function을 보낼 수 있음
+  - JSX이므로 html 태그 자체에 이벤트 리스너를 넣는것과는 전혀 다름
+  - 이벤트를 실행시키는 함수가 프로퍼티로 들어간 것
+  - 결론 : 커스텀 컴포넌트에서의 onClick은 이벤트 리스너가 아닌 단지 하나의 props임
+- 불필요한 re-render는 React.memo()로 관리 가능
+  - 부모 컴포넌트의 state 변경 시 자식 컴포넌트들도 re-render이 일어나게 됨 -> 이를 방지하기 위하여 memo사용
