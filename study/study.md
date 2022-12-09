@@ -18,7 +18,7 @@
   - ReactDOM.render(span, span이 가야할 위치)
 
 - 바닐라 JS는 HTML -> JS 순서
-- React는 JS -> HTML 순서 --> 이것이 React 핵심 !
+- **React는 JS -> HTML 순서 --> 이것이 React 핵심 !**
 
 - 두 가지 const를 render 하고자 하는 경우 div를 만든 후 React.createElement("div", null, [span,btn])과 같이 배열을 만들어 content 위치에 넣어줌
 
